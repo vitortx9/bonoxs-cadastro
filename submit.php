@@ -1,6 +1,6 @@
 <?php
 // Configurações do banco de dados
-$servername = "roundhouse.proxy.rlwy.net:22309";
+$servername = "monorail.proxy.rlwy.net : 58003";
 $username = "root";
 $password = "";
 $dbname = "bonoxs_cadastro";
