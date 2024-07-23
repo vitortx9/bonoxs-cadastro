@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "top_secret";
+$dbname = "bonoxs_cadastro";
 
 // Cria conexão com o banco de dados
 $conn = new mysqli($servername, $username, $password, $dbname);
