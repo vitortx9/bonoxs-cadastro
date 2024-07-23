@@ -1,12 +1,13 @@
 <?php
 // Configurações do banco de dados
-$servername = "localhost";
+$servername = "roundhouse.proxy.rlwy.net:22309";
 $username = "root";
 $password = "";
 $dbname = "bonoxs_cadastro";
+$port = "3306";
 
 // Cria conexão com o banco de dados
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($servername, $username, $password, $dbname, $port);
 
 // Verifica a conexão
 if ($conn->connect_error) {
